@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DD96EE257749E03BDB31D4 /* Pods_ios_test_shturkhal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB16859FBE243CB89E2A6934 /* Pods_ios_test_shturkhal.framework */; };
 		7BEAFDDF2C149CFE006C9B5D /* ios_test_shturkhalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAFDDE2C149CFE006C9B5D /* ios_test_shturkhalApp.swift */; };
 		7BEAFDE12C149CFE006C9B5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAFDE02C149CFE006C9B5D /* ContentView.swift */; };
 		7BEAFDE32C149D00006C9B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEAFDE22C149D00006C9B5D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7284E4CC5A6E7254B82D4B4A /* Pods-ios_test_shturkhal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_test_shturkhal.release.xcconfig"; path = "Target Support Files/Pods-ios_test_shturkhal/Pods-ios_test_shturkhal.release.xcconfig"; sourceTree = "<group>"; };
 		7BEAFDDB2C149CFE006C9B5D /* ios_test_shturkhal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_test_shturkhal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEAFDDE2C149CFE006C9B5D /* ios_test_shturkhalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_test_shturkhalApp.swift; sourceTree = "<group>"; };
 		7BEAFDE02C149CFE006C9B5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +25,8 @@
 		7BEAFDE52C149D00006C9B5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BEAFDE72C149D00006C9B5D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7BEAFDEA2C149D00006C9B5D /* ios_test_shturkhal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_test_shturkhal.xcdatamodel; sourceTree = "<group>"; };
+		94E997EE2CAEB51F002F4E1B /* Pods-ios_test_shturkhal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_test_shturkhal.debug.xcconfig"; path = "Target Support Files/Pods-ios_test_shturkhal/Pods-ios_test_shturkhal.debug.xcconfig"; sourceTree = "<group>"; };
+		AB16859FBE243CB89E2A6934 /* Pods_ios_test_shturkhal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_test_shturkhal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +34,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DD96EE257749E03BDB31D4 /* Pods_ios_test_shturkhal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B674FD992AF54AF27593DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB16859FBE243CB89E2A6934 /* Pods_ios_test_shturkhal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7BEAFDD22C149CFE006C9B5D = {
 			isa = PBXGroup;
 			children = (
 				7BEAFDDD2C149CFE006C9B5D /* ios_test_shturkhal */,
 				7BEAFDDC2C149CFE006C9B5D /* Products */,
+				D7E4DB5B2DDF1D7E921DC6C8 /* Pods */,
+				06B674FD992AF54AF27593DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +88,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7E4DB5B2DDF1D7E921DC6C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E997EE2CAEB51F002F4E1B /* Pods-ios_test_shturkhal.debug.xcconfig */,
+				7284E4CC5A6E7254B82D4B4A /* Pods-ios_test_shturkhal.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BEAFDEE2C149D00006C9B5D /* Build configuration list for PBXNativeTarget "ios_test_shturkhal" */;
 			buildPhases = (
+				2515A2F58524F3E27789A04B /* [CP] Check Pods Manifest.lock */,
 				7BEAFDD72C149CFE006C9B5D /* Sources */,
 				7BEAFDD82C149CFE006C9B5D /* Frameworks */,
 				7BEAFDD92C149CFE006C9B5D /* Resources */,
+				B66C74F6D4CBF3D10C99E555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2515A2F58524F3E27789A04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_test_shturkhal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66C74F6D4CBF3D10C99E555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_test_shturkhal/Pods-ios_test_shturkhal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_test_shturkhal/Pods-ios_test_shturkhal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_test_shturkhal/Pods-ios_test_shturkhal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7BEAFDD72C149CFE006C9B5D /* Sources */ = {
@@ -274,6 +343,7 @@
 		};
 		7BEAFDEF2C149D00006C9B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E997EE2CAEB51F002F4E1B /* Pods-ios_test_shturkhal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -288,6 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +374,7 @@
 		};
 		7BEAFDF02C149D00006C9B5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7284E4CC5A6E7254B82D4B4A /* Pods-ios_test_shturkhal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
